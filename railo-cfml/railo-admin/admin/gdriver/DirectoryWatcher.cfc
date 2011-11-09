@@ -18,7 +18,7 @@
     	<cfreturn "">
     </cffunction>
 	<cffunction name="getCFCPath" returntype="string">
-    	<cfreturn "railo.extension.gateway.DirectoryWatcher">
+    	<cfreturn "WEB-INF.railo.components.gateway.DirectoryWatcher">
     </cffunction>
     
 	<cffunction name="getLabel" returntype="string" output="no">
@@ -54,7 +54,7 @@
 		<cfreturn "required">
 	</cffunction>
 	<cffunction name="getListenerPath" returntype="string" output="no">
-		<cfreturn "railo.extension.gateway.DirectoryWatcherListener">
+		<cfreturn "WEB-INF.railo.components.gateway.DirectoryWatcherListener">
 	</cffunction>
 </cfcomponent>
 
